@@ -8,36 +8,6 @@
             "regex": "(?U)^([^-\\s]+\\s*[-\\s+]\\s*)+([^-\\s]+)$",
             "replacement": "$2",
             "comment": "Keep only after last '-' or ' '"
-        },
-        {
-            "regex": "Tarascon",
-            "ignore_case": true,
-            "is_word": true,
-            "replacement": "Tarascon-sur-Ariège"
-        },
-        {
-            "regex": "Montsegur",
-            "ignore_case": true,
-            "is_word": true,
-            "replacement": "Montségur"
-        },
-        {
-            "regex": "(Girons|St Girons|Saint Girons)",
-            "ignore_case": true,
-            "is_word": true,
-            "replacement": "St-Girons"
-        },
-        {
-            "regex": "(Lary|St Lary|Saint Lary)",
-            "ignore_case": true,
-            "is_word": true,
-            "replacement": "St-Lary"
-        },
-        {
-            "regex": "(Lizier|St Lizier|Saint Lizier)",
-            "ignore_case": true,
-            "is_word": true,
-            "replacement": "St-Lizier"
         }
     ],
     "trip_headsign_remove_via": true,
